@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_login_horizontal_margin">32dp</dimen>
+    <dimen name="activity_login_vertical_margin">32dp</dimen>
+    <dimen name="fragment_auction_horizontal_margin">2dp</dimen>
+    <dimen name="fragment_auction_vertical_margin">2dp</dimen>
+    <dimen name="activity_login_horizontal_margin_2dp">2dp</dimen>
+    <dimen name="activity_login_vertical_margin_2dp">2dp</dimen>
+
+    <dimen name="action_bar_elevation">5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

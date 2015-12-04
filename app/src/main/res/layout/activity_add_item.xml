@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="32dp"
+    tools:context="cross.com.auction.fragments.LoginFragment">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/item_desc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/min_bid_layout"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/item_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:hint="@string/item_desc_hint"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/appTextMaterialDark" />
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:id="@+id/min_bid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/auction_duration_layout"
+        android:layout_centerInParent="true">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/min_bid_text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/minBidValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/min_bid_hint"
+                android:inputType="number"
+                android:textColor="@color/appTextMaterialDark" />
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/auction_duration_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add_item_button"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/auction_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:hint="@string/bid_duration_hint"
+            android:inputType="datetime"
+            android:textColor="@color/appTextMaterialDark" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/add_item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_button"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="@string/add_item_button_text"
+        android:textColor="@color/button_selection" />
+
+    <ProgressBar
+        android:id="@+id/add_item_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_item_button"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+</RelativeLayout>

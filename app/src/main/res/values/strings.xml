@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Auction</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add Item</string>
+    <string name="action_account">Account</string>
+
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="title_activity_login">Login</string>
+    <string name="no_login_button_text">No account yet? Create one</string>
+    <string name="has_login_button_text">Already a member? Login</string>
+    <string name="login_button_text">Continue</string>
+    <string name="logout_button_text">Logout</string>
+    <string name="add_item_button_text">Add Item</string>
+    <string name="valid_user_name_and_password">Please enter valid User name and password</string>
+    <string name="valid_user_details">Please enter valid details</string>
+    <string name="login_success">Login Success</string>
+    <string name="registration_success">Registration Success!</string>
+    <string name="user_id_already_in_use">User id is already in use!</string>
+    <string name="signup_fragment_title">Register</string>
+    <string name="login_fragment_title">Login</string>
+    <string name="add_item">Add</string>
+
+    <string name="item_desc_hint">Enter Item Description</string>
+    <string name="min_bid_hint">Enter Min Bid Value</string>
+    <string name="bid_duration_hint">Enter Auction Duration in minutes</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_item_title">Add Item</string>
+    <string name="current_bid_text">"Current Bid: $"</string>
+    <string name="auction_closed">Auction Closed</string>
+    <string name="time_left">"Time Left: "</string>
+    <string name="auction_already_closed">Auction already closed</string>
+    <string name="auction_new_bid_value">Enter more than current bid</string>
+    <string name="details_are_mandatory">All Details are mandatory!</string>
+    <string name="max_value">Value is equal or more than max value!</string>
+    <string name="max_duration">Auction duration should be less than 60min.!</string>
+    <string name="title_activity_account">AccountActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="user_account">User Account</string>
+    <string name="user_information">User Information:</string>
+    <string name="user_id_text">User ID:</string>
+    <string name="user_name_text">User Name:</string>
+    <string name="user_no_text">User No:</string>
+    <string name="user_bids">User Bids:</string>
+    <string name="your_bid">"Your Bid "</string>
+    <string name="won_by">"Won by: "</string>
+    <string name="auction_status">"Auction Status: "</string>
+    <string name="auction_going_on">Auction going on</string>
+</resources>

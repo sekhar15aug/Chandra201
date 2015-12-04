@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_login_vertical_margin_2dp"
+    android:paddingLeft="@dimen/activity_login_horizontal_margin_2dp"
+    android:paddingRight="@dimen/activity_login_horizontal_margin_2dp"
+    android:paddingTop="@dimen/activity_login_vertical_margin_2dp"
+    android:background="@android:color/white"
+    tools:context="cross.com.auction.LoginActivity">
+
+    <FrameLayout
+        android:id="@+id/frag_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</RelativeLayout>
